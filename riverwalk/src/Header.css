@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Bangers");
+
+
+.container {
+	display: grid;
+	grid-template-columns: 20% 80%;
+}
+
+.logo {
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.title {
+	font-family: 'Bangers', cursive;
+	grid-column-start: 2; 
+	grid-column-end: 2;
+}
+
+h2 {
+	font-size: 100%;
+}
+
+

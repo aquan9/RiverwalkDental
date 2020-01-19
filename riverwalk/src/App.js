@@ -1,24 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import MissionStatement from './MissionStatement.js';
+import VisionStatement from './VisionStatement.js';
+import ContactInfo from './ContactInfo.js';
+import MeetTheDoctor from './MeetTheDoctor.js';
+import Header from './Header.js';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Tabs from 'react-bootstrap/Tabs';
+import Tab from 'react-bootstrap/Tab';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+	<Header />
+	<Tabs defaultActiveKey="home" id="primary-tabs">
+		<Tab eventKey="home" title="Home">
+			<MissionStatement />
+		</Tab>
+		<Tab eventKey="missionAndVision" title="Mission and Vision">
+			<MissionStatement />
+			<VisionStatement />
+		</Tab>
+		<Tab eventKey="contactInformation" title="Contact Information">
+			<ContactInfo />
+		</Tab>
+		<Tab eventKey="meetTheDoctor" title="Meet the Doctor">
+			<MeetTheDoctor />
+		</Tab>
+	</Tabs>
     </div>
   );
 }
