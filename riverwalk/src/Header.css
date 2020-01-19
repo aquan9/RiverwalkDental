@@ -2,23 +2,27 @@
 
 
 .container {
-	display: grid;
-	grid-template-columns: 20% 80%;
+	margin-top: 2vh;
+	display: flex;
 }
 
 .logo {
-	grid-column-start: 1;
-	grid-column-end: 2;
+	flex: 1;
 }
 
 .title {
 	font-family: 'Bangers', cursive;
-	grid-column-start: 2; 
-	grid-column-end: 2;
+	flex: 1;
 }
+
+h1 {
+	color: black;
+}
+
 
 h2 {
 	font-size: 100%;
+	color: #003688;
 }
 
 
