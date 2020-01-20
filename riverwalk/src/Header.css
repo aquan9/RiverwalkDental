@@ -2,6 +2,8 @@
 
 .Header {
 	background-color: #C4F597;
+	background-image: url("./pictures/background.jpg");
+	background-size: cover;
 }
 
 .container {
