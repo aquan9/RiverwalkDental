@@ -5,7 +5,7 @@ import './ContactInfo.css';
 function ContactInfo() {
   return (
     <div className="ContactInfo">
-	Contact Information: <br/>
+	<b>Contact Information:</b> <br/>
 		Phone: (505) 336-0696 <br/>
 		Email: riverwalkdental@comcast.net <br/>
     </div>

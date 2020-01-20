@@ -1,12 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Zilla+Slab");
 
 .Header {
-	background-color: #AAF683;
+	background-color: #C4F597;
 }
 
 .container {
 	margin-top: 2vh;
 	display: flex;
+}
+
+#HeaderContainer {
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+	margin-left: 1vh;
 }
 
 .logo {
@@ -21,16 +27,18 @@
 .title {
 	font-family: 'Zilla Slab', cursive;
 	vertical-align: middle;
+	text-align: center;
 	flex: 1;
 }
 
-h1 {
+#mainTitle {
 	color: black;
+	font-size: 6.5vh;
 }
 
 
-h2 {
-	font-size: 100%;
+#subTitle {
+	font-size: 4vh;
 	/*color: #003688;*/
 	color: black;
 }

@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import './Header.css';
-import logo from './pictures/RiverwalkLogo.jpg';
+import logo from './pictures/RiverwalkLogo.png';
 import logobw from './pictures/riverwalk-bw.jpg';
 
 function Header() {
   return (
     <div className="Header">
-	<div className="container">
+	<div className="container" id="HeaderContainer">
 		<div className="logo">	
 			<img src={logo} alt="The company logo"/>
 		</div>

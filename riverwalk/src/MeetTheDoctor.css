@@ -1,10 +1,24 @@
 .headshot {
-	border-radius: 20%;
+	border-radius: 5%;
 	width: 100px%;
-	height: 200px;
+	height: 400px;
 }
 
 .MeetTheDoctor {
 	padding-left: 5vw;
 	padding-right: 5vw;
+}
+
+.container {
+	margin-top: 2vh;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.left {
+	flex: 1;
+}
+
+.right {
+	flex: 1;
 }

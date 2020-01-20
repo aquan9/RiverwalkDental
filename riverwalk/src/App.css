@@ -1,5 +1,12 @@
 .App {
-  text-align: center;
+}
+
+#welcome {
+	padding-top:2vh;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	font-weight: bold;
+	font-size: 5vh;
 }
 
 .nav-tabs {

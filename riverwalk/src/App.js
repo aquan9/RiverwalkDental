@@ -17,6 +17,7 @@ function App() {
 	<Header />
 	<Tabs defaultActiveKey="home" id="primary-tabs">
 		<Tab eventKey="home" title="Home">
+			<div id="welcome">Welcome to Riverwalk Dental</div> 
 			<MissionStatement />
 		</Tab>
 		<Tab eventKey="missionAndVision" title="Mission and Vision">
@@ -32,7 +33,7 @@ function App() {
 		<Tab eventKey="ourServices" title="Services">
 			<OurServices />
 		</Tab>
-		<Tab eventKey="insurance" title="Insurances Accepted">
+		<Tab eventKey="insurance" title="Payment Options">
 			<Insurance />
 		</Tab>
 	</Tabs>

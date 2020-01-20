@@ -5,7 +5,7 @@ import './VisionStatement.css';
 function VisionStatement() {
   return (
     <div className="VisionStatement">
-Our Vision: To connect with and inspire as many individuals as possible to
+<b>Our Vision:</b> To connect with and inspire as many individuals as possible to
 lead healthier lives.
     </div>
   );
