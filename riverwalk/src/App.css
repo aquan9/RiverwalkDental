@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+.nav-tabs {
+	background-color: #8A4F7D;
+}
+
+.nav-item {
+	color: white;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

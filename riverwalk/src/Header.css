@@ -1,5 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Bangers");
+@import url("https://fonts.googleapis.com/css?family=Zilla+Slab");
 
+.Header {
+	background-color: #AAF683;
+}
 
 .container {
 	margin-top: 2vh;
@@ -10,8 +13,14 @@
 	flex: 1;
 }
 
+.logo img {
+	width: 100px%;
+	height: 200px;
+}
+
 .title {
-	font-family: 'Bangers', cursive;
+	font-family: 'Zilla Slab', cursive;
+	vertical-align: middle;
 	flex: 1;
 }
 
@@ -22,7 +31,12 @@ h1 {
 
 h2 {
 	font-size: 100%;
-	color: #003688;
+	/*color: #003688;*/
+	color: black;
 }
 
-
+.banner img {
+	width: 100vw;
+	height: 300px;
+	object-fit: cover;
+}

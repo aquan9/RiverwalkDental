@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import './Header.css';
 import logo from './pictures/RiverwalkLogo.jpg';
+import logobw from './pictures/riverwalk-bw.jpg';
 
 function Header() {
   return (

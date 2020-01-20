@@ -1,5 +1,10 @@
-img {
+.headshot {
 	border-radius: 20%;
 	width: 100px%;
 	height: 200px;
+}
+
+.MeetTheDoctor {
+	padding-left: 5vw;
+	padding-right: 5vw;
 }

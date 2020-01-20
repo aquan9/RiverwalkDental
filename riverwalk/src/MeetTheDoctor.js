@@ -7,7 +7,7 @@ function MeetTheDoctor() {
   return (
     <div className="MeetTheDoctor">
 	<p>Claudia L. Quan DDS</p>
-	<img src={claudiaHeadshot} alt="Headshot of the dentist" />
+	<img className="headshot" src={claudiaHeadshot} alt="Headshot of the dentist" />
 
 	<p>When I observe nature I am immediately mesmerized by its beauty, and even
 more mesmerized that behind such beauty exists form and function, which

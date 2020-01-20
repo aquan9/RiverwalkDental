@@ -5,8 +5,8 @@ import VisionStatement from './VisionStatement.js';
 import ContactInfo from './ContactInfo.js';
 import MeetTheDoctor from './MeetTheDoctor.js';
 import OurServices from './OurServices.js';
+import Insurance from './Insurance.js';
 import Header from './Header.js';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
@@ -31,6 +31,9 @@ function App() {
 		</Tab>
 		<Tab eventKey="ourServices" title="Services">
 			<OurServices />
+		</Tab>
+		<Tab eventKey="insurance" title="Insurances Accepted">
+			<Insurance />
 		</Tab>
 	</Tabs>
     </div>
