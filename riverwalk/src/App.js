@@ -19,13 +19,7 @@ function App() {
 		<Tab eventKey="home" title="Home">
 			<div id="welcome">Welcome to Riverwalk Dental</div> 
 			<MissionStatement />
-		</Tab>
-		<Tab eventKey="missionAndVision" title="Mission and Vision">
-			<MissionStatement />
 			<VisionStatement />
-		</Tab>
-		<Tab eventKey="contactInformation" title="Contact Information">
-			<ContactInfo />
 		</Tab>
 		<Tab eventKey="meetTheDoctor" title="Meet the Doctor">
 			<MeetTheDoctor />
@@ -35,6 +29,9 @@ function App() {
 		</Tab>
 		<Tab eventKey="insurance" title="Payment Options">
 			<Insurance />
+		</Tab>
+		<Tab eventKey="contactInformation" title="Contact Information">
+			<ContactInfo />
 		</Tab>
 	</Tabs>
     </div>
