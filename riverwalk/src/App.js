@@ -5,6 +5,7 @@ import VisionStatement from './VisionStatement.js';
 import ContactInfo from './ContactInfo.js';
 import MeetTheDoctor from './MeetTheDoctor.js';
 import OurServices from './OurServices.js';
+import Ecology from './Ecology.js';
 import Insurance from './Insurance.js';
 import Header from './Header.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -32,6 +33,9 @@ function App() {
 		</Tab>
 		<Tab eventKey="contactInformation" title="Contact Information">
 			<ContactInfo />
+		</Tab>
+		<Tab eventKey="ecology" title="Ecology">
+			<Ecology />
 		</Tab>
 	</Tabs>
     </div>
