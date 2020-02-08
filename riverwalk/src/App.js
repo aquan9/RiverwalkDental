@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import MissionStatement from './MissionStatement.js';
 import VisionStatement from './VisionStatement.js';
+import WelcomeStatement from './WelcomeStatement.js';
 import ContactInfo from './ContactInfo.js';
 import MeetTheDoctor from './MeetTheDoctor.js';
 import OurServices from './OurServices.js';
@@ -19,8 +20,11 @@ function App() {
 	<Tabs defaultActiveKey="home" id="primary-tabs">
 		<Tab eventKey="home" title="Home">
 			<div id="welcome">Welcome to Riverwalk Dental</div> 
+			<WelcomeStatement />
 			<MissionStatement />
 			<VisionStatement />
+			<p className="callToday">Call us today to schedule your appointment!</p>
+			<p className="callToday">Weekend hours are available</p>
 		</Tab>
 		<Tab eventKey="meetTheDoctor" title="Meet the Doctor">
 			<MeetTheDoctor />
