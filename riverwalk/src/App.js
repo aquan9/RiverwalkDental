@@ -34,7 +34,7 @@ function App() {
 		<Tab eventKey="contactInformation" title="Contact Information">
 			<ContactInfo />
 		</Tab>
-		<Tab eventKey="ecology" title="Ecology">
+		<Tab eventKey="ecology" title="Eco-friendly">
 			<Ecology />
 		</Tab>
 	</Tabs>
