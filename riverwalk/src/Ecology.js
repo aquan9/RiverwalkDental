@@ -1,17 +1,14 @@
 import React from 'react';
 import './App.css';
 import './Ecology.css';
-import recyclingIcon from './pictures/Recycle-Icon.png';
+import recyclingIcon from './pictures/kawaii-earth.png';
 
 function Ecology() {
   return (
     <div className="Ecology">
 	<div className="container">
-		<div className="left">
-			<img className="picture" src={recyclingIcon} alt="the universal recycling logo" />
-		</div>
 
-		<div className="right">
+		<div className="left">
 		<p><b>Help our community go GREEN</b></p>
 		<p>Here at Riverwalk Dental we are passionate about preserving our environment. We
 are making strides to help eliminate waste and protect our environment while still
@@ -31,6 +28,9 @@ biodegradable bamboo toothbrushes.</p>
 		</ul>
 		<p>We can all make a difference! Let’s be committed to a healthy lifestyle and keeping our planet beautiful!</p>
 		
+		</div>
+		<div className="right">
+			<img className="picture" src={recyclingIcon} alt="the universal recycling logo" />
 		</div>
 	</div>
     </div>
