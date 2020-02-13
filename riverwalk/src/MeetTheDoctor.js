@@ -24,6 +24,11 @@ to gently ease any dental anxiety you may be holding on to, help you heal from
 oral disease and celebrate your unique beauty. With you in control of your
 dental health and the help of our wonderful team at Riverwalk Dental, the
 possibilities are endless.</p>
+		<p>Name: Claudia Quan</p>
+		<p>Hobbies: Yoga, Dancing, Spending time with family</p>
+		<p>Graduated Dental School from: University of Colorado School of Dental Medicine</p>
+		<p>Residency: UNM Advanced Education in General Dentistry</p>
+		<p>Years in practice: 6</p>
 		</div>
 	</div>
     </div>

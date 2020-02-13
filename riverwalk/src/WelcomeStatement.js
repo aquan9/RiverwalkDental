@@ -5,7 +5,7 @@ import './WelcomeStatement.css';
 function WelcomeStatement() {
   return (
     <div className="WelcomeStatement">
-	<p>We are a small locally owned general dental office focused on creating a safe
+	<p>We are a small locally owned general dental office focused on creating a safe,
 	comfortable environment and excellent patient experience. We are honored to be
 	able to serve the wonderful Santa Fe community and surrounding areas.</p>
 
