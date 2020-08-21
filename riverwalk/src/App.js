@@ -9,6 +9,7 @@ import OurServices from './OurServices.js';
 import Ecology from './Ecology.js';
 import Insurance from './Insurance.js';
 import Header from './Header.js';
+import Covid from './COVID.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
@@ -40,6 +41,9 @@ function App() {
 		</Tab>
 		<Tab eventKey="ecology" title="Eco-friendly">
 			<Ecology />
+		</Tab>
+		<Tab eventKey="covid" title="COVID-19">
+			<Covid />
 		</Tab>
 	</Tabs>
     </div>

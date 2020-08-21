@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import './Header.css';
-import logo from './pictures/RiverwalkLogo.png';
+import logo from './pictures/new-logo-edited-compressed.png';
 import logobw from './pictures/riverwalk-bw.jpg';
 
 function Header() {
