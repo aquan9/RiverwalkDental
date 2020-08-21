@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a3b3cc206fe8056832542ad0095deef4",
+    "revision": "247ce314482269436c4673f3ec42570a",
     "url": "./index.html"
   },
   {
-    "revision": "c9b42569b4c8cdb75ccc",
+    "revision": "fc123993dc18f5acdd06",
     "url": "./static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "241b2d87ca3e93bb2530",
-    "url": "./static/css/main.b6a825fa.chunk.css"
+    "revision": "7ad8f61750d3f5cce288",
+    "url": "./static/css/main.54c0d591.chunk.css"
   },
   {
-    "revision": "c9b42569b4c8cdb75ccc",
-    "url": "./static/js/2.896ead52.chunk.js"
+    "revision": "fc123993dc18f5acdd06",
+    "url": "./static/js/2.d8f3dfad.chunk.js"
   },
   {
     "revision": "f032203ca460334c00de541c30a6078a",
-    "url": "./static/js/2.896ead52.chunk.js.LICENSE"
+    "url": "./static/js/2.d8f3dfad.chunk.js.LICENSE"
   },
   {
-    "revision": "241b2d87ca3e93bb2530",
-    "url": "./static/js/main.33f18603.chunk.js"
+    "revision": "7ad8f61750d3f5cce288",
+    "url": "./static/js/main.2de2c6d6.chunk.js"
   },
   {
     "revision": "8507dd83547add9141e6",
@@ -30,10 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fd030cec067bc52683eba346f4b0067a",
     "url": "./static/media/MajorCreditCards.fd030cec.jpg"
-  },
-  {
-    "revision": "21f8ea1680046ecf68d713bc2af682ce",
-    "url": "./static/media/RiverwalkLogo.21f8ea16.png"
   },
   {
     "revision": "bd2d4b831da5a02b2764905ce06ff0d8",
@@ -54,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d228b096f7fb4ee0f2d354a1ff666de4",
     "url": "./static/media/kawaii-earth.d228b096.png"
+  },
+  {
+    "revision": "3d21a3c8307cd23017c6fa9fd00bbb70",
+    "url": "./static/media/new-logo-edited-compressed.3d21a3c8.png"
   },
   {
     "revision": "467548c74e8f25e3b79d71aea68e66f4",
