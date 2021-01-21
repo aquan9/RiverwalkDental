@@ -5,7 +5,8 @@ import delta from './pictures/DeltaDental.png';
 import cigna from './pictures/cigna-logo.png';
 import united from './pictures/UnitedConcordiaLogo.png';
 import careCredit from './pictures/care-credit.png';
-import majorCards from './pictures/MajorCreditCards.jpg';
+import majorCards from './pictures/MajorCreditCards-noAMEX.jpg';
+import benefitSource from './pictures/benefitlogo.png';
 
 function Insurance() {
   return (
@@ -14,6 +15,7 @@ function Insurance() {
 		<li> Cigna <img className="insurance-logo" src={cigna}/></li>
 		<li> Delta Dental <img className="insurance-logo" src={delta}/></li>
 		<li> United Concordia <img className="insurance-logo" src={united}/></li>
+        <li> Benefit Source <img className="insurance-logo" src={benefitSource}/></li>
 	</ul>
 	<ul> <u><b>Payments Accepted</b></u>
 		<li> All Major Credit Cards <img className="insurance-logo" src={majorCards}/></li>

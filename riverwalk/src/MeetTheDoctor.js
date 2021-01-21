@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import './MeetTheDoctor.css';
 import claudiaHeadshot from './pictures/claudia-with-lilly-cropped.jpg';
+import ramonaHeadshot from './pictures/purple-flowers.jpg';
 
 function MeetTheDoctor() {
   return (
@@ -10,6 +11,11 @@ function MeetTheDoctor() {
 		<div className="left">
 			<p><b>Claudia L. Quan DDS</b></p>
 			<img className="headshot" src={claudiaHeadshot} alt="Headshot of the dentist" />
+            <br/>
+            <br/>
+            <br/>
+            <p><b>Ramona Gonzalez</b></p>
+            <img className="headshot" src={ramonaHeadshot} alt="Headshot of the assistant Ramona" />
 		</div>
 
 		<div className="right">
@@ -29,6 +35,15 @@ possibilities are endless.</p>
 		<p>Graduated Dental School from: University of Colorado School of Dental Medicine</p>
 		<p>Residency: UNM Advanced Education in General Dentistry</p>
 		<p>Years in practice: 6</p>
+
+        <hr/>
+        <hr/>
+        <hr/>
+        <p>I began my career in 2017 after completing the dental assisting program at Luna Community College. In 2018, I obtained certification through the Dental Assisting National Board. I enjoy dentistry because it is not repetitive, every patient and procedure is different. There is always something new to learn. In my spare time I enjoy spending time with family, shopping and fishing. </p>
+        <p>Name: Ramona Gonzalez</p>
+        <p>Certifications: Certified Dental Assistant</p>
+
+
 		</div>
 	</div>
     </div>

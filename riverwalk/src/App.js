@@ -10,6 +10,7 @@ import Ecology from './Ecology.js';
 import Insurance from './Insurance.js';
 import Header from './Header.js';
 import Covid from './COVID.js';
+import NewPatient from './NewPatient.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
@@ -24,10 +25,12 @@ function App() {
 			<WelcomeStatement />
 			<MissionStatement />
 			<VisionStatement />
-			<p className="callToday">Call us today to schedule your appointment!</p>
+			<p className="callToday">Call us, or text us today to schedule your appointment!</p>
+            <p className="callToday">(505) 336-0696</p>
 			<p className="callToday">Weekend hours are available</p>
+            <p className="callToday">Address: 3252 Cerrillos Rd. Ste #A, Santa Fe, NM 87507</p>
 		</Tab>
-		<Tab eventKey="meetTheDoctor" title="Meet the Doctor">
+		<Tab eventKey="meetTheDoctor" title="About us">
 			<MeetTheDoctor />
 		</Tab>
 		<Tab eventKey="ourServices" title="Services">
@@ -39,6 +42,9 @@ function App() {
 		<Tab eventKey="contactInformation" title="Contact Information">
 			<ContactInfo />
 		</Tab>
+        <Tab eventKey="newPatientForm" title="New Patient Form">
+            <NewPatient />
+        </Tab>
 		<Tab eventKey="ecology" title="Eco-friendly">
 			<Ecology />
 		</Tab>
