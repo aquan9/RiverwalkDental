@@ -15,7 +15,6 @@ function Header() {
 		<div className="title">
 			<h1 id="mainTitle">Riverwalk Dental</h1>
 			<h2 id="subTitle">Inspiring a healthy community through nurturing oral care</h2>
-            <a href="tel:5053360696"><img id="subTitle" width="50px" height="50px" src={phone} /></a>
 		</div>
 	</div>
     </div>

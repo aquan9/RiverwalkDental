@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "./static/css/main.9c1c1fbc.chunk.css",
-    "main.js": "./static/js/main.76e93e9e.chunk.js",
-    "main.js.map": "./static/js/main.76e93e9e.chunk.js.map",
+    "main.js": "./static/js/main.79e91cc3.chunk.js",
+    "main.js.map": "./static/js/main.79e91cc3.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.5815e26a.js",
     "runtime-main.js.map": "./static/js/runtime-main.5815e26a.js.map",
     "static/css/2.17e5ed98.chunk.css": "./static/css/2.17e5ed98.chunk.css",
-    "static/js/2.1936ef2a.chunk.js": "./static/js/2.1936ef2a.chunk.js",
-    "static/js/2.1936ef2a.chunk.js.map": "./static/js/2.1936ef2a.chunk.js.map",
+    "static/js/2.684f2fe4.chunk.js": "./static/js/2.684f2fe4.chunk.js",
+    "static/js/2.684f2fe4.chunk.js.map": "./static/js/2.684f2fe4.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.501066a811f71cb98c9e696a9a24cebf.js": "./precache-manifest.501066a811f71cb98c9e696a9a24cebf.js",
+    "precache-manifest.1969aa55924463b5aa4d74e97ae513df.js": "./precache-manifest.1969aa55924463b5aa4d74e97ae513df.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "./static/css/2.17e5ed98.chunk.css.map",
     "static/css/main.9c1c1fbc.chunk.css.map": "./static/css/main.9c1c1fbc.chunk.css.map",
-    "static/js/2.1936ef2a.chunk.js.LICENSE": "./static/js/2.1936ef2a.chunk.js.LICENSE",
+    "static/js/2.684f2fe4.chunk.js.LICENSE": "./static/js/2.684f2fe4.chunk.js.LICENSE",
     "static/media/MajorCreditCards-noAMEX.jpg": "./static/media/MajorCreditCards-noAMEX.bb10fad8.jpg",
     "static/media/Header.css": "./static/media/background.bd2d4b83.jpg",
     "static/media/benefitlogo.png": "./static/media/benefitlogo.9dac4bc9.png",
     "static/media/care-credit.png": "./static/media/care-credit.74571c3d.png",
     "static/media/cigna-logo.png": "./static/media/cigna-logo.5d7f929a.png",
-    "static/media/claudia_headshot2.jpg": "./static/media/claudia_headshot2.a85c1009.jpg",
+    "static/media/claudia-with-lilly-cropped.jpg": "./static/media/claudia-with-lilly-cropped.acf859e6.jpg",
     "static/media/kawaii-earth.png": "./static/media/kawaii-earth.d228b096.png",
     "static/media/new-logo-edited-compressed.png": "./static/media/new-logo-edited-compressed.3d21a3c8.png",
     "static/media/purple-flowers.jpg": "./static/media/purple-flowers.15dc852d.jpg",
@@ -29,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.5815e26a.js",
     "static/css/2.17e5ed98.chunk.css",
-    "static/js/2.1936ef2a.chunk.js",
+    "static/js/2.684f2fe4.chunk.js",
     "static/css/main.9c1c1fbc.chunk.css",
-    "static/js/main.76e93e9e.chunk.js"
+    "static/js/main.79e91cc3.chunk.js"
   ]
 }

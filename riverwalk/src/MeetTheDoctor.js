@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import './MeetTheDoctor.css';
-import claudiaHeadshot from './pictures/claudia-with-lilly-cropped.jpg';
+import claudiaHeadshot from './pictures/claudia_headshot2.jpg';
 import ramonaHeadshot from './pictures/purple-flowers.jpg';
 
 function MeetTheDoctor() {
